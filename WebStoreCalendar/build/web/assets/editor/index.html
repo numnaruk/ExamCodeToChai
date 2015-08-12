@@ -1,0 +1,24 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="Stylesheet" type="text/css" href="jHtmlArea.css" />
+	<link rel="Stylesheet" type="text/css" href="jHtmlArea.ColorPickerMenu.css" />
+</head>
+<body> 
+	  
+	<textarea id="txtBody" style="width:500px;height:200px;border:1px solid red;"></textarea>
+	<script type="text/javascript" src="jquery1.7.1.js"></script>
+	<script type="text/javascript" src="jHtmlArea-0.7.0.js"></script>
+    <script type="text/javascript" src="jHtmlArea.ColorPickerMenu-0.7.0.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $("#txtBody").htmlarea({ toolbar: ["html", "|", "forecolor", "|", "bold", "italic", "underline", "|", "increasefontsize", "decreasefontsize", "|", "orderedlist", "unorderedlist", "|", "justifyleft", "justifycenter", "justifyright", "|", "link", "unlink", "image", "|", "p", "h1", "h2", "h3"] });
+            });
+        </script>
+		
+		
+</body>
+</html>
